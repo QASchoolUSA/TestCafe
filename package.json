@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/QASchoolUSA/TestCafe/issues"
   },
-  "homepage": "https://github.com/QASchoolUSA/TestCafe#readme"
+  "homepage": "https://github.com/QASchoolUSA/TestCafe#readme",
+  "devDependencies": {
+    "testcafe": "^1.17.1"
+  }
 }
