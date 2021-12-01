@@ -4,7 +4,7 @@
   "description": "Project for perforrming automation testing",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe \"chrome:headless\" tests/trello.js"
+    "test": "testcafe chrome tests/trello.js"
   },
   "repository": {
     "type": "git",
