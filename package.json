@@ -1,0 +1,27 @@
+{
+  "name": "test-cafe",
+  "version": "1.0.0",
+  "description": "Project for perforrming automation testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe \"chrome:headless\" tests/sample-fixture.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QASchoolUSA/TestCafe.git"
+  },
+  "keywords": [
+    "TestCafe",
+    "Angular",
+    "Chrome",
+    "Headless",
+    "Github",
+    "Actions"
+  ],
+  "author": "Nikita Bogdanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QASchoolUSA/TestCafe/issues"
+  },
+  "homepage": "https://github.com/QASchoolUSA/TestCafe#readme"
+}
