@@ -34,6 +34,3 @@ fixture `Testing the Trello Web Applications`
           await t
               .expect(Selector('.btn.btn-success').withText('New Item'))
               .click(Selector('.btn.btn-success'))
-
-          await t
-              .expect(Selector('div.panel').visible).ok()
