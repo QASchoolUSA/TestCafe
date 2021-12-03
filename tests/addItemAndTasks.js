@@ -37,4 +37,3 @@ fixture `Testing the Trello Web Applications`
 
           await t
               .expect(Selector('div.panel').visible).ok()
-              .
