@@ -33,4 +33,4 @@ fixture `Testing the Trello Web Applications`
 
           await t
               .expect(Selector('.btn.btn-success').withText('New Item'))
-              .click(Selector('.btn.btn-success'))
+              .click(Selector('.btn.btn-success').withText('New Item'))
