@@ -17,3 +17,4 @@ fixture `Testing the Trello Web Applications`
 
           await t
               .expect(Selector('.dropdown a.navbar-brand').visible).notOk();
+    });
