@@ -14,7 +14,7 @@ test('User should be able to click on new item and new item component is display
         .expect(Selector('.dropdown a.navbar-brand').innerText).eql(`Board 1`)
 
     await t
-        .expect(Selector('.btn.btn-success').value('New Item'))
+        .expect(Selector('.btn.btn-success').value).contains('New Item')
 
     await t
         .click(Selector('.btn.btn-success'))
